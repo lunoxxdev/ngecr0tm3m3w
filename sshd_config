@@ -14,7 +14,6 @@ Include /etc/ssh/sshd_config.d/*.conf
 
 Port 22
 Port 2222
-Port 2269
 
 #AddressFamily any
 #ListenAddress 0.0.0.0
@@ -125,4 +124,3 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 #	PermitTTY no
 #	ForceCommand cvs server
 Banner /etc/issue.net
-
